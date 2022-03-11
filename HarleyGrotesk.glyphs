@@ -35,7 +35,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature dnom;\012feature ss01;\012feature ss02;\012feature ss03;\012";
+code = "feature dnom;\012";
 name = aalt;
 },
 {
@@ -57,21 +57,6 @@ name = dlig;
 automatic = 1;
 code = "lookupflag IgnoreMarks;\012sub f f i by f_f_i;\012sub f f l by f_f_l;\012sub f f by f_f;\012sub f i by fi;\012sub f l by fl;\012";
 name = liga;
-},
-{
-automatic = 1;
-code = "sub Q by Q.ss01;\012sub R by R.ss01;\012";
-name = ss01;
-},
-{
-automatic = 1;
-code = "sub a by a.ss02;\012sub y by y.ss02;\012";
-name = ss02;
-},
-{
-automatic = 1;
-code = "sub f by f.ss03;\012sub r by r.ss03;\012sub t by t.ss03;\012";
-name = ss03;
 }
 );
 fontMaster = (
@@ -9016,10 +9001,10 @@ rightKerningGroup = Z;
 unicode = 005A;
 },
 {
-color = 3;
+color = 10;
 export = 0;
 glyphname = A.liga;
-lastChange = "2022-02-02 16:14:36 +0000";
+lastChange = "2022-02-08 16:50:40 +0000";
 layers = (
 {
 background = {
@@ -9339,10 +9324,10 @@ note = A.liga;
 rightKerningGroup = H;
 },
 {
-color = 3;
+color = 10;
 export = 0;
 glyphname = V.liga;
-lastChange = "2022-02-02 16:14:36 +0000";
+lastChange = "2022-02-08 16:50:40 +0000";
 layers = (
 {
 background = {
@@ -9554,10 +9539,10 @@ note = V.liga;
 rightKerningGroup = V.liga;
 },
 {
-color = 1;
+color = 10;
 export = 0;
 glyphname = Q.ss01;
-lastChange = "2022-02-02 16:14:39 +0000";
+lastChange = "2022-02-08 16:50:40 +0000";
 layers = (
 {
 background = {
@@ -9900,10 +9885,10 @@ leftKerningGroup = C;
 note = Q;
 },
 {
-color = 4;
+color = 10;
 export = 0;
 glyphname = A.ss03;
-lastChange = "2021-09-06 19:22:32 +0000";
+lastChange = "2022-02-08 16:50:40 +0000";
 layers = (
 {
 background = {
@@ -21788,9 +21773,10 @@ rightKerningGroup = z;
 unicode = 007A;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = a.ss02;
-lastChange = "2021-09-06 19:22:32 +0000";
+lastChange = "2022-02-08 16:50:35 +0000";
 layers = (
 {
 background = {
@@ -22325,9 +22311,10 @@ leftKerningGroup = c;
 note = d;
 },
 {
-color = 1;
+color = 10;
+export = 0;
 glyphname = y.ss02;
-lastChange = "2021-10-23 22:55:38 +0000";
+lastChange = "2022-02-08 16:50:35 +0000";
 layers = (
 {
 background = {
@@ -22551,9 +22538,10 @@ note = y;
 rightKerningGroup = v;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = f.ss03;
-lastChange = "2021-10-23 22:55:38 +0000";
+lastChange = "2022-02-08 16:50:35 +0000";
 layers = (
 {
 background = {
@@ -22932,9 +22920,10 @@ leftKerningGroup = f;
 note = f;
 },
 {
-color = 4;
+color = 10;
+export = 0;
 glyphname = r.ss03;
-lastChange = "2021-10-23 22:55:38 +0000";
+lastChange = "2022-02-08 16:50:35 +0000";
 layers = (
 {
 background = {
@@ -23235,9 +23224,10 @@ leftKerningGroup = f;
 note = f;
 },
 {
-color = 1;
+color = 10;
+export = 0;
 glyphname = t.ss03;
-lastChange = "2021-10-23 22:55:38 +0000";
+lastChange = "2022-02-08 16:50:35 +0000";
 layers = (
 {
 background = {
