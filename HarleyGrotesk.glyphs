@@ -1,6 +1,9 @@
 {
-.appVersion = "3108";
+.appVersion = "3133";
 .formatVersion = 3;
+DisplayStrings = (
+"HARLEY GROTESK"
+);
 axes = (
 {
 name = Weight;
@@ -276,6 +279,7 @@ GSOffsetHorizontal = 15;
 GSOffsetKeepCompatible = 1;
 GSOffsetVertical = 15;
 };
+visible = 1;
 },
 {
 axesValues = (
@@ -2557,7 +2561,7 @@ unicode = 68;
 color = 5;
 glyphname = E;
 kernRight = E;
-lastChange = "2022-05-29 18:57:48 +0000";
+lastChange = "2022-07-29 17:27:54 +0000";
 layers = (
 {
 anchors = (
@@ -2826,41 +2830,20 @@ name = topleft;
 pos = (20,700);
 }
 );
-background = {
-shapes = (
-{
-closed = 1;
-nodes = (
-(605,0,l),
-(605,155,l),
-(254,155,l),
-(254,280,l),
-(566,280,l),
-(566,429,l),
-(254,429,l),
-(254,545,l),
-(597,545,l),
-(597,700,l),
-(65,700,l),
-(65,0,l)
-);
-}
-);
-};
 layerId = "9D32FE6F-9470-45EF-9689-909A6F5CE504";
 shapes = (
 {
 closed = 1;
 nodes = (
 (605,0,l),
-(605,155,l),
-(254,155,l),
-(254,280,l),
+(605,160,l),
+(255,160,l),
+(255,280,l),
 (566,280,l),
-(566,429,l),
-(254,429,l),
-(254,545,l),
-(597,545,l),
+(566,440,l),
+(255,440,l),
+(255,540,l),
+(597,540,l),
 (597,700,l),
 (65,700,l),
 (65,0,l)
@@ -2938,7 +2921,7 @@ unicode = 69;
 {
 color = 5;
 glyphname = F;
-lastChange = "2022-05-29 18:57:48 +0000";
+lastChange = "2022-07-29 17:28:37 +0000";
 layers = (
 {
 anchors = (
@@ -3175,13 +3158,13 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(256,0,l),
-(256,250,l),
-(546,250,l),
-(546,405,l),
-(256,405,l),
-(256,539,l),
-(580,539,l),
+(255,0,l),
+(255,247,l),
+(546,247,l),
+(546,407,l),
+(255,407,l),
+(255,540,l),
+(580,540,l),
 (580,700,l),
 (65,700,l),
 (65,0,l)
