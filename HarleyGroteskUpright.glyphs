@@ -1,6 +1,9 @@
 {
-.appVersion = "3148";
+.appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+O
+);
 axes = (
 {
 name = Weight;
@@ -2612,7 +2615,7 @@ color = 9;
 glyphname = O;
 kernLeft = C;
 kernRight = D;
-lastChange = "2023-01-11 13:52:36 +0000";
+lastChange = "2023-10-20 18:11:35 +0000";
 layers = (
 {
 background = {
